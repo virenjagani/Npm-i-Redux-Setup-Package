@@ -6,8 +6,8 @@ This is my first Redux setup package, now available on npm. It provides a pre-co
 
 - Easily accessible `store` and `persistor` that can be added with the root tag in your `app.js` or `index.js` file in React.
 
--const reduxSetup = require('redux-setup-package/index')
--const {store,persistor,getUserList} = reduxSetup
+-`const reduxSetup = require('redux-setup-package/index')`
+-`const {store,persistor,getUserList} = reduxSetup`
 
 - A `getUserList` method that can be dispatched to fetch user data. Example: `store.dispatch(getUserList());`
 
